@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(img/raja-ampat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header h1 {
+    font-size: 5em;
+    margin-bottom: 4em;
+    color: #fff;
+}
+
+nav {
+    background-color: #333333ab;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 15em;
+}
+
+nav ul li:hover {
+    background-color: #ffffff5e;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #333;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+    flex: 1 1 30%;
+    max-width: 25%;
+    text-align: center;
+    color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 15em;
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input {
+    width: 70%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: large;
+}
+
+button {
+    padding: 0.5em 2em;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
